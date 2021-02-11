@@ -1,1 +1,23 @@
 YouTube Tutorial Link: youtube.com/watch?v=SAX8b3AN3Uc
+
+- interfaces explanation
+    - to implement an interface, you must inmplement all of the abstract methods detailed in the interface
+- to implement a map-reduce program, hadoop provides interfaces for the mapper and reducer functions
+    - you must implement all of the abstract methods including in the specified mapper and reducer interfaces
+
+Mapper Interface:
+- takes in two values: K1, V1
+- outputs two values: K2, V2
+- you must implement the Map() function
+
+Reducer Interface:
+- must implement the Reduce() function
+
+Step/Step:
+1. Mapper Code - implement the mapper interface
+2. Reducer Code - implement the reducer interface
+3. Config Code/Driver Code
+4. Run Final JAR in Hadoop
+
+Configuring Hadoop Installation:
+https://stackoverflow.com/questions/47488497/hadoop-on-mac-in-intellij-idea-setup
