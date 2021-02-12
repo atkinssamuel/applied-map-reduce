@@ -4,7 +4,7 @@ The purpose of this project is to gain a thorough understanding of Hadoop MapRed
 
 ## k-Means Clustering
 ### k-Means Clustering Implementation
-k-Means clustering with MapReduce was implemented in the ```kmeans``` directory. ```k=4``` and ```k=8``` were used and the results have been included in ```kmeans/results/results.txt```.
+k-Means clustering with MapReduce was implemented in the ```kmeans``` directory. ```k=4``` and ```k=8``` were used, and the results have been included in ```kmeans/results/results.txt```. The CLI was not used because of my familiarity with IntelliJ. To run the MapReduce programs, I created a Java Console Application and modified the run configuration with my command line arguments. I have included the full output of running my k-Means MapReduce program in the ```kmeans/results/console_output.txt``` file. 
 
 ### Advantages & Disadvantages of k-Means with MapReduce
 The advantages and disadvantages of using MapReduce in the context of k-Means clustering are as follows:  
@@ -41,4 +41,4 @@ Canopy pre-clustering and k-Means can be used in conjunction with MapReduce to r
 Then, the k-Means algorithm implemented in this project can be applied to each of the defined canopies. Each cluster needs to compare the points in its own canopy with the points in the overlapping canopies. Thus, the k-Means driver code present in the Main class must be modified to accommodate this key difference. The k-Means algorithm will then iterate until convergence and given appropriate distance thresholds, the algorithm will converge to an optimal solution much faster than a vanilla k-Means implementation. 
 
 ## Line Counter
-A line-counter was also implemented in ```shakespeare-line-count/```. This MapReduce program counts all the lines that are present in ```shakespeare.txt```. The results are included in ```shakespeare-line-count/results/results.txt```.
+A line-counter was also implemented in ```shakespeare-line-count/```. This MapReduce program counts all the lines that are present in ```shakespeare.txt```. The results are included in ```shakespeare-line-count/results/results.txt```. The CLI was not used because of my familiarity with IntelliJ. To run the MapReduce programs, I created a Java Console Application and modified the run configuration with my command line arguments. I have included the full output of running my k-Means MapReduce program in the ```shakespeare-line-count/results/console_output.txt``` file. 

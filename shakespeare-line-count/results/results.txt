@@ -1,2 +1,3 @@
 shakespeare.txt contains a total of 58483 lines
-The MapReduce job took 1.365s to execute
+The MapReduce job took 1.365s to executeshakespeare.txt contains a total of 58483 lines
+The MapReduce job took 1.401s to execute
