@@ -25,3 +25,4 @@ hs_err_pid*
 # project-specific .gitignores
 .idea/
 data_points.txt
+shakespeare.txt

@@ -1,30 +1,30 @@
 
 kMeans algorithm with k = 4 complete.
-Iteration count = 32
+Iteration count = 6
 Movement threshold = 0.010000
 
-Execution time = 68010
-Centroid 1: (49.986217, 27.129035)
-Centroid 2: (9.964939, 15.098255)
-Centroid 3: (34.946833, 1.706289)
-Centroid 4: (49.922122, 35.352408)
+Execution time = 13931
+Centroid 1: (49.961204, 32.860649)
+Centroid 2: (9.965015, 15.099159)
+Centroid 3: (49.871436, 24.486848)
+Centroid 4: (34.903449, 1.646232)
 
 
 Intermission between k = 4 and k = 8
 
 
 kMeans algorithm with k = 8 complete.
-Iteration count = 44
+Iteration count = 89
 Movement threshold = 0.010000
-Execution time = 92075
-Centroid 1: (9.887362, 12.327992)
-Centroid 2: (34.429303, 10.152367)
-Centroid 3: (35.094180, 1.877919)
-Centroid 4: (51.449484, 21.664075)
-Centroid 5: (9.964722, 20.485630)
-Centroid 6: (34.627812, -6.868379)
-Centroid 7: (49.755605, 29.991058)
-Centroid 8: (50.201810, 38.623521)
+Execution time = 187389
+Centroid 1: (34.417133, 10.132859)
+Centroid 2: (51.434567, 21.651444)
+Centroid 3: (9.886496, 12.333986)
+Centroid 4: (35.100834, 1.872307)
+Centroid 5: (34.601014, -6.876637)
+Centroid 6: (49.760096, 29.990177)
+Centroid 7: (50.195499, 38.622657)
+Centroid 8: (9.966119, 20.495965)
 
 
 Finished running kMeans...

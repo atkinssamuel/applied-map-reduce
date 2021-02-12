@@ -10,8 +10,6 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.*;
 import org.apache.hadoop.mapred.*;
 public class Main {
-
-
     public static void main(String[] args) throws IOException {
         // driver code
         JobConf conf = new JobConf(KMeans.class);
