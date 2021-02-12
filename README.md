@@ -4,7 +4,7 @@ The purpose of this project is to gain a thorough understanding of Hadoop MapRed
 
 ## k-Means Clustering
 ### k-Means Clustering Implementation
-k-Means clustering with MapReduce was implemented in the ```kmeans``` directory. ```k=4``` and ```k=8``` were used, and the results have been included in ```kmeans/results/results.txt```. The CLI was not used because of my familiarity with IntelliJ. To run the MapReduce programs, I created a Java Console Application and modified the run configuration with my command line arguments. I have included the full output of running my k-Means MapReduce program in the ```kmeans/results/console_output.txt``` file. 
+k-Means clustering with MapReduce was implemented in the ```kmeans``` directory. ```k=4``` and ```k=8``` were used, and the results have been included in ```kmeans/results/results.txt```. The CLI was not used because of my familiarity with IntelliJ. To run the MapReduce programs, I created a Java Console Application and modified the run configuration with my command line arguments. I have included the full output of running my k-Means MapReduce program in the ```kmeans/results/console_output.txt``` file. The jar files for both the k-Means algorithm and the line counter are present in the ```jars``` folder. 
 
 ### Advantages & Disadvantages of k-Means with MapReduce
 The advantages and disadvantages of using MapReduce in the context of k-Means clustering are as follows:  
