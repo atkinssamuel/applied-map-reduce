@@ -57,7 +57,7 @@ public class Main {
         outStream.write(String.format("Movement threshold = %f\n\n", movementThreshold));
         long endTime = System.currentTimeMillis();
         System.out.format("Execution time = " + (endTime - startTime) + "\n");
-        outStream.write(String.format("Execution time = " + (endTime - startTime) + "\n"));
+        outStream.write(String.format("Execution time = " + (endTime - startTime) * 0.001 + "s\n"));
         outStream.close();
         Helpers.printCentroids(outputDirectory + "/" + "part-00000", resultsFile);
         outStream = new BufferedWriter(new FileWriter(resultsFile, true));
@@ -80,7 +80,7 @@ public class Main {
         outStream.write(String.format("Movement threshold = %f\n", movementThreshold));
         endTime = System.currentTimeMillis();
         System.out.format("Execution time = " + (endTime - startTime) + "\n");
-        outStream.write(String.format("Execution time = " + (endTime - startTime) + "\n"));
+        outStream.write(String.format("Execution time = " + (endTime - startTime) * 0.001 + "s\n"));
         outStream.close();
         Helpers.printCentroids(outputDirectory + "/" + "part-00000", resultsFile);
         outStream = new BufferedWriter(new FileWriter(resultsFile, true));
